@@ -35,6 +35,7 @@ h1 {
 h2 {
     font-family: "Young Serif", Arial, serif;
     color: var(--color-nutmeg);
+    font-weight: 400; 
 }
 
 h3 {
@@ -55,6 +56,10 @@ p {
 
 li {
     margin: 5px;
+}
+
+li::marker {
+    color: var(--color-nutmeg);
 }
 
 ul li {
